@@ -12,7 +12,6 @@ import java.sql.DriverManager;
 import java.util.Properties;
 
 public class Util {
-    // реализуйте настройку соеденения с БД
     private static SessionFactory sessionFactory;
 
     public static SessionFactory getSessionFactory() {
